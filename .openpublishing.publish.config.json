@@ -35,11 +35,6 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "_themes.pdf",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master"
-    },
-    {
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/OPS-E2E-PPE/versioning-test-v3",
       "branch": "master",
@@ -48,11 +43,5 @@
         "master": "master"
       }
     }
-  ],
-  "need_generate_pdf_url_template": true,
-  "Targets": {
-    "Pdf": {
-      "template_folder": "_themes.pdf"
-    }
-  }
+  ]
 }
