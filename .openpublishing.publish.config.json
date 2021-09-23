@@ -8,8 +8,8 @@
       "locale": "zh-cn",
       "monikers": [],
       "moniker_ranges": [
-        "< test-client-2.0",
-        ">= test-client-2.0 || test-server-1.0 || test-server-2.0"
+        "\u003C test-client-2.0",
+        "\u003E= test-client-2.0 || test-server-1.0 || test-server-2.0"
       ],
       "open_to_public_contributors": true,
       "type_mapping": {
@@ -31,24 +31,26 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft.zh-cn",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
     {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master"
+      "branch": "main",
+      "branch_mapping": {}
     },
     {
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/OPS-E2E-PPE/versioning-test-v3",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {
         "live": "live",
-        "master": "master"
+        "main": "main"
       }
     }
   ],
+  "branch_target_mapping": null,
   "need_generate_pdf_url_template": true,
   "Targets": {
     "Pdf": {
